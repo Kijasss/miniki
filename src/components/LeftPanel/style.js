@@ -8,5 +8,5 @@ export const LeftPanelWrapper = styled.div`
   width: 220px;
   height: 580px;
   /* background-color: #f5f5f5; */
-  background-color: #ffffff;  
+  background-color: #18d159;
 `;
