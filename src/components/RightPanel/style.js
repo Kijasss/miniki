@@ -5,7 +5,7 @@ export const RightPanelWrapper = styled.div`
   border-top: 2px solid pink;
   border-bottom: 2px solid pink;
   border-radius: 0px 10px 10px 0px;
-  /* background-color: tomato; */
+  /* background-color: #fc7b64; */
   flex: 1;
   flex-direction: column;
   display: flex;

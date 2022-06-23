@@ -15,6 +15,10 @@ export const TopPanelWrapper = styled.div`
   }
   .rightPart {
     float: right;
+  }
+  .char {
+    display: inline;
+    font-size: 14px;
     color: #ff8000;
   }
 `;

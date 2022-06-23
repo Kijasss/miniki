@@ -18,14 +18,15 @@ export default memo(function TopPanel() {
       />
       <div className="rightPart">
         <Avatar src="https://img-blog.csdnimg.cn/4e0090c96ef54725a1d03c78f4bbab2a.png" />
-        &nbsp;&nbsp;Kijasss&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;<div className="char">Kijasss</div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <Badge dot>
-          <MailOutlined style={{ fontSize: "15px", color: "#a9a9a9" }} />
+          <MailOutlined style={{ fontSize: "17px", color: "#a9a9a9" }} />
         </Badge>
-        &nbsp;&nbsp;&nbsp;
-        <TagOutlined style={{ fontSize: "15px", color: "#a9a9a9" }} />
-        &nbsp;&nbsp;&nbsp;
-        <MenuOutlined style={{ fontSize: "15px", color: "#a9a9a9" }} />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <TagOutlined style={{ fontSize: "17px", color: "#a9a9a9" }} />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <MenuOutlined style={{ fontSize: "17px", color: "#a9a9a9" }} />
       </div>
     </TopPanelWrapper>
   );
